@@ -45,11 +45,6 @@ This Opencart module provides an easy method to integrate with the payment gatew
 	- Line 4: `<p class="paymentgatewaymoduleform-message">You will be presented with the Payment Network Payment Gateway to complete payment.</p>`
 6. Change the filename of `httpdocs/admin/controller/extension/payment/payment_network.php` file, to your brand name
 7. Change the logo in `httpdocs/admin/view/image/payment/` to match your brand
-8. Change the filename of `httpdocs/admin/view/template/extension/payment/payment_network.twig` file, to your brand name
-9. Change the filename of `httpdocs/catalog/controller/extension/payment/payment_network.php` file, to your brand name
-10. Change the filename of `httpdocs/catalog/language/en-gb/extension/payment/payment_network.php` file, to your brand name
-11. Change the filename of `httpdocs/catalog/model/extension/payment/payment_network.php` file, to your brand name
-12. Change the filenames of the `*.twig`files located in `httpdocs/catalog/view/theme/default/template/extension/payment/` to your brand name
 
 # Installing and configuring the module
 
