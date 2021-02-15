@@ -17,7 +17,6 @@ This Opencart module provides an easy method to integrate with the payment gatew
 
 - The module requires the following prerequisites to be met in order to function correctly:
     - The 'bcmath' php extension module: https://www.php.net/manual/en/book.bc.php
-    - SSL **NB: HTTPS is expected to be in place as the payment gateway will respond over SSL when redirecting the user's browser. Failure to provide an environment where HTTPS traffic is possible, will result in the 3DSv2 payment flow failing***
 
 > Please note that we can only offer support for the Module itself. While every effort has been made to ensure the payment module is complete and bug free, we cannot guarentee normal functionality if unsupported changes are made.
 
@@ -45,6 +44,7 @@ This Opencart module provides an easy method to integrate with the payment gatew
 	- Line 4: `<p class="paymentgatewaymoduleform-message">You will be presented with the Payment Network Payment Gateway to complete payment.</p>`
 6. Change the filename of `httpdocs/admin/controller/extension/payment/payment_network.php` file, to your brand name
 7. Change the logo in `httpdocs/admin/view/image/payment/` to match your brand
+8. When downloading as a zip file, you can right-click and rename to remove the `Unbranded` text from the filename.
 
 # Installing and configuring the module
 
