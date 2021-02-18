@@ -7,7 +7,7 @@ $_['text_edit'] = "Edit Payment Network Settings";
 $_['text_payment']    = 'Payment';
 $_['text_success']    = 'Success: You have modified Payment Network account details!';
 $_['text_payment_network'] =
-    '<a onclick="window.open(\'https://www.cardstream.com\');"><img src="view/image/payment/payment_network.png" alt="Payment Network" title="Payment Network" style="border: 1px solid #EEEEEE;" /></a>';
+    '<a onclick="window.open(\'https://www.example.com\');"><img src="view/image/payment/payment_network.png" alt="Payment Network" title="Payment Network" style="border: 1px solid #EEEEEE;" /></a>';
 
 // placeholders
 $_['text_merchantid']       = "Enter the merchant ID provided by Payment Network MMS, use 100001 for testing";
