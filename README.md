@@ -1,4 +1,4 @@
-# Opencart-Unbranded# README
+# OpenCart-Unbranded# README
 
 # Contents
 
@@ -11,7 +11,7 @@
 # Introduction
 
 This Opencart module provides an easy method to integrate with the payment gateway.
- - Supports Opencart versions: **3.X**
+ - Supports OpenCart versions: **3.X**
 
 # Prerequisites
 
