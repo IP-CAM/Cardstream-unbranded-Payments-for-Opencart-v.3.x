@@ -33,7 +33,7 @@ This Opencart module provides an easy method to integrate with the payment gatew
 2. Update the following variables located in `httpdocs/catalog/controller/extension/payment/payment_network.php` replacing the web address to match that which we provide.
 	- Line 17: `const API_ENDPOINT_DIRECT = 'https://gateway.example.com/direct/';`
 3. Update the following variables located in `httpdocs/catalog/language/en-gb/extension/payment/payment_network.php` replacing `Payment Network` and any web addresses, to match your brand and that which we provide, respectively.
-	- Line 5: `$_['form_hosted_url'] = 'https://gateway.example.com/paymentform/';`
+	- Line 5: `$_['form_hosted_url'] = 'https://gateway.example.com/hosted/';`
 	- Line 6: `$_['form_hosted_modal_url'] = 'https://gateway.example.com/hosted/modal';`
 	- Line 7: `$_['form_direct_url'] = 'https://gateway.example.com/direct/';`
 	- Line 10: `$_['text_title']        = 'Credit Card / Debit Card (Payment Network)';`
